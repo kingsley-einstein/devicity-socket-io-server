@@ -4,6 +4,10 @@ module.exports = (ioServer, server) => {
 
     io.on('connection', (socket) => {
         console.log('New user connected');
+
+        socket.on('new-message', (message) => {
+            io.emit('data', message);
+        });
     });
 
     (async () => {

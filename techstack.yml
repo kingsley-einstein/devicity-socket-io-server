@@ -1,0 +1,73 @@
+repo_name: kingsley-einstein/devicity-socket-io-server
+report_id: c557aa7f48f35b6512e9d8e377677c53
+repo_type: Public
+timestamp: '2023-11-09T20:12:48+00:00'
+requested_by: kingsley-einstein
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 2.1.1
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2018-11-04 20:40:20.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2018-11-04 20:40:20.000000000 Z
+- name: hapi
+  description: HTTP Server framework
+  package_url: https://www.npmjs.com/hapi
+  version: 17.6.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16345/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2018-11-04 20:40:20.000000000 Z
+  vulnerabilities:
+  - name: Denial of Service in hapi
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7hx8-2rxv-66xv
+    detected_date: Aug 22
+    severity: high
+    first_patched: 
